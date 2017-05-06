@@ -1,0 +1,14 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    // ... other options omitted
+    "allowSyntheticDefaultImports": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.promise"
+    ]
+  }
+}
